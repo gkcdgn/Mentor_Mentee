@@ -1,0 +1,62 @@
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item {
+    font-size: 16px; /* Yazı boyutunu artır */
+    padding: 10px 10px; /* Yükseklik ve genişliği artır */
+ }
+ul li {
+   line-height: 1.8; /* Satır aralığını artırır */
+   margin-bottom: 10px; /* Her madde arasına ekstra boşluk ekler */
+}
+
+.dropdown-menu {
+  background-color: #5b5e60; /* Navbar arka plan rengi ile aynı */
+  border: none; /* Kenar çizgisini kaldır */
+}
+
+.dropdown-item {
+color: #ffffff; /* Yazı rengini beyaz yap */
+}
+
+.dropdown-item:hover {
+background-color: #4a4d4e; /* Hover efekt için biraz daha koyu bir renk */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*istatistik*/
+.stat-box {
+    background-color: #f8f9fa; /* Açık arka plan rengi */
+    border-radius: 8px;        /* Köşe yuvarlama */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    transition: transform 0.3s ease; /* Geçiş efekti */
+}
+
+.stat-box h3 {
+    font-size: 2.5rem; /* Büyük sayı fontu */
+    color: #007bff;    /* Mavi renk */
+}
+
+.stat-box p {
+    font-size: 1.2rem; /* Açıklama fontu */
+    color: #6c757d;    /* Gri renk */
+}
+
+.stat-box:hover {
+    transform: scale(1.05); /* Üzerine gelince büyüme efekti */
+}
+
+
+footer {
+   
+    padding: 10px 0; /* Üst ve alt dolgu alanı */
+    margin-top: auto; /* Footer'ı sayfanın altına itmek için */
+}
