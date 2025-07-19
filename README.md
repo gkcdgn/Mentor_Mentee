@@ -33,7 +33,7 @@ This system is built to streamline the matching between mentees and mentors usin
 ---
 ## 🧠 Teknik Süreç Diyagramı | Matching Flow Diagram
 
-📷 ![matching-flow](image/matching-flow.png)
+📷 ![matching-flow](İmage/matching-flow.png)
 
 🔄 Süreç:
 - Kayıt formları doldurulur
@@ -49,7 +49,7 @@ This visual illustrates how mentees and mentors move through registration, match
 
 ## 🗂️ Veritabanı ER Diyagramı | Entity Relationship Diagram
 
-📷 ![er-diagram](image/er-diagram.png)
+📷 ![er-diagram](İmage/er-diagram.png)
 
 🗃️ Tablolar ve ilişkileri:
 - `mentee` ←→ `matches` ←→ `mentor`
