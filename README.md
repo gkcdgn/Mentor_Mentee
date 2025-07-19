@@ -60,17 +60,35 @@ This diagram highlights the primary tables and their relationships for match tra
 
 ---
 
-## 🖼️ Arayüz Görselleri | Interface Screenshots
+## 🏠 Ana Sayfa | Homepage
 
-| Görsel Adı               | Açıklama |
-|--------------------------|----------|
-| `homepage.png`           | **TR:** Anasayfa, sekmeli navigasyon ve istatistik kartları<br>**EN:** Homepage with tab navigation and summary cards |
-| `mentee-form.png`        | **TR:** Mentee kayıt formu<br>**EN:** Mentee registration form |
-| `mentor-form.png`        | **TR:** Mentor kayıt formu<br>**EN:** Mentor registration form |
-| `mentor-selection.png`   | **TR:** Mentee’nin mentorları seçtiği ekran<br>**EN:** Mentor selection by mentee |
-| `mentee-selection.png`   | **TR:** Mentorun mentee onay ekranı<br>**EN:** Mentee confirmation by mentor |
-| `matching-flow.png`      | **TR:** Süreç diyagramı<br>**EN:** Flow diagram |
-| `er-diagram.png`         | **TR:** Veritabanı ilişkileri<br>**EN:** ER structure |
+![matching-flow](İmage/homepage.png)
+
+TR: Sistemi tanıtan ana giriş ekranı. Sekmeli navigasyon, kullanıcı karşılaması, kayıt yönlendirmeleri ve istatistiksel özet kartları yer alır. EN: Main landing screen introducing the system. Tab navigation, user onboarding, form links, and summary statistics are displayed.
+
+
+##  Mentee Kayıt Formu | Mentee Registration Form
+
+![matching-flow](İmage/mentee-form.png)
+
+TR: Mentee kayıt formu; ad-soyad, iletişim bilgileri, akademik geçmiş, mentor beklentileri ve KVKK onayı alanlarını içerir. EN: Mentee registration form including name, contact info, academic background, mentor expectations, and KVKK consent checkbox.
+
+## Mentor Kayıt Formu | Mentor Registration Form
+
+![matching-flow](İmage/mentor-form.png)
+
+TR: Mentor kayıt formu; kişisel bilgiler, mesleki geçmiş, ilgi alanları ve KVKK onayı ile birlikte sunulur. EN: Mentor registration form with personal details, professional background, interest areas, and KVKK approval.
+
+## Mentor Seçim Ekranı | Mentor Selection Screen
+
+![matching-flow](İmage/mentor-selection.png)
+
+TR: Mentee’nin kendisine önerilen mentorları seçtiği ekran; checkbox ile seçim yapılır, “Onayla” butonu ile işlem tamamlanır. EN: Screen where mentee selects suggested mentors using checkboxes and confirms via a submit button.
+
+## ✅ Mentee Onay Ekranı | Mentee Confirmation Screen
+![matching-flow](İmage/mentee-selection.png)
+
+TR: Mentorun eşleşen mentee’yi onayladığı ekran; mentee bilgileri (ad, telefon, e-posta) gösterilir ve seçim yapılır. EN: Mentor confirmation screen showing matched mentee’s details and allowing selection via checkbox.
 
 ---
 
